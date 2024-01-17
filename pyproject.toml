@@ -6,8 +6,15 @@ authors = ["y00njaekim <rladbswo12@gist.ac.kr>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "~3.9"
 black = "^23.12.1"
+numpy = "^1.26.3"
+torch = "^2.1.2"
+torchvision = "^0.16.2"
+tqdm = "^4.66.1"
+scipy = "^1.11.4"
+opencv-python = "^4.9.0.80"
+matplotlib = "^3.8.2"
 
 
 [build-system]
